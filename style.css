@@ -1,0 +1,48 @@
+h1 {
+  border: 3px red dashed;
+  border-radius: 100px 0 0 100px;
+}
+
+img {
+  box-shadow: 6px 6px 12px black;
+}
+
+body {
+  background-image: url();
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+.container {
+  display: flex;
+
+  background-color: green;
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.element2,
+.element1,
+.element3 {
+  flex: 1;
+}
+
+.container > div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
